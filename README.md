@@ -1,8 +1,8 @@
-# 🔐 Shamir Secret Sharing Recovery (Java)
+# Shamir Secret Sharing Recovery
 
 This project is a **Java implementation** of Shamir's Secret Sharing recovery algorithm. It takes shares from a JSON file, validates them, and reconstructs the original secret using **Lagrange interpolation**.
 
-## 📋 Overview
+## Overview
 
 Shamir's Secret Sharing is a cryptographic algorithm that divides a secret into multiple parts (shares) and requires a minimum number of shares to reconstruct the original secret. This implementation:
 
@@ -11,14 +11,14 @@ Shamir's Secret Sharing is a cryptographic algorithm that divides a secret into 
 - Reconstructs the secret using Lagrange interpolation
 - Supports different number bases (binary, decimal, quaternary, etc.)
 
-## 📂 Files in this Repository
+## Files in this Repository
 
 - **`Test.java`** → Main program that parses input and reconstructs the secret
 - **`test1.json`** → Example input file with shares
 - **`test2.json`** → Example input file with shares
 - **`README.md`** → Project documentation (this file)
 
-## 🚀 How to Compile and Run
+## How to Compile and Run
 
 ### Prerequisites
 - Java Development Kit (JDK) 8 or higher
